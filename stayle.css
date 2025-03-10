@@ -6152,6 +6152,7 @@ body {
     grid-template-columns: repeat(2, 160px);
     grid-template-rows: repeat(2, 44px);
     gap: 30px;
+    column-gap: 20px;
   }
   .qaulity {
     display: flex;
@@ -6169,7 +6170,7 @@ body {
   }
   .qaulity p {
     font-family: fontspring;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 0%;
     margin: 0%;
     color: #073b43;
