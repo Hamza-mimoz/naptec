@@ -3455,7 +3455,7 @@ body {
   }
   .stayle-div h1 {
     font-family: fontspring;
-    font-size: 92px;
+    font-size: 82px;
     line-height: 96px;
     text-align: center;
     color: white;
@@ -3807,7 +3807,7 @@ body {
     position: relative;
   }
   .custome-desing {
-    width: 550px;
+    width: 85%;
     height: 434px;
     border-top-right-radius: 620px;
     background-color: #073b43;
@@ -3821,7 +3821,7 @@ body {
   }
   .custome-div::before {
     content: "";
-    width: 569px;
+    width: 87%;
     height: 434px;
     border-top-right-radius: 620px;
     border: 1px solid white;
@@ -3830,13 +3830,14 @@ body {
     left: 20px;
   }
   .desing {
+    padding: 20px 80px 40px 0px;
     max-width: 439px;
     max-height: 344px;
   }
   .desing h2 {
     font-family: fontspring;
     font-size: 48px;
-    line-height: 72px;
+
     letter-spacing: 0%;
     color: white;
   }
@@ -3880,7 +3881,7 @@ body {
   .service-content h2 {
     font-family: fontspring;
     font-weight: 500px;
-    font-size: 60px;
+    font-size: 48px;
     line-height: 72px;
     letter-spacing: 0%;
     vertical-align: middle;
@@ -3898,7 +3899,7 @@ body {
     margin-left: 18px;
     font-family: fontspring;
     font-weight: 300px;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 36px;
     letter-spacing: 0%;
     vertical-align: middle;
@@ -3971,9 +3972,11 @@ body {
     align-items: start;
     margin-left: 5%;
   }
-
+  .partner-div-img {
+    width: 100%;
+  }
   .partner-image {
-    width: 550px;
+    width: 100%;
     height: 350px;
     border-width: 1px;
 
@@ -3986,7 +3989,7 @@ body {
   }
   .partner-image::after {
     content: "";
-    width: 570px;
+    width: 103%;
     height: 350px;
     border: 1px solid white;
 
@@ -4101,6 +4104,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
   }
   .foot-sub input {
     width: 320px;
@@ -5262,14 +5266,14 @@ body {
     width: 95%;
     margin-left: 5%;
     display: grid;
-    grid-template-columns: repeat(2, 200px);
+    grid-template-columns: repeat(2, 180px);
     grid-template-rows: repeat(2, auto);
   }
   .qaulity {
     display: flex;
     justify-content: start;
     align-items: center;
-    gap: 10px;
+    gap: 1px;
   }
   .qaulity-flag {
     width: 40px;
@@ -5282,7 +5286,7 @@ body {
   .qaulity p {
     font-family: fontspring;
     font-size: 16px;
-    line-height: 32px;
+
     letter-spacing: 0%;
   }
   .about-section {
@@ -5360,9 +5364,9 @@ body {
   }
   .all-brands {
     display: grid;
-    grid-template-columns: repeat(2, 170px);
-    grid-template-rows: repeat(2, auto);
-    column-gap: 20px;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(2, 280px);
+    column-gap: 15px;
   }
   .brand-img {
     transition: all 0.5s ease-in-out;
@@ -5376,7 +5380,7 @@ body {
   }
   .sarvitto {
     height: 30px;
-    margin-top: 40px;
+    margin-top: 30px;
   }
   .brand {
     display: flex;
@@ -5448,7 +5452,7 @@ body {
     align-items: start;
     padding-bottom: 60px;
     padding-right: 30px;
-    gap: 10px;
+    gap: 0px;
   }
   .product-h2 h2 {
     font-family: fontspring;
@@ -6142,12 +6146,12 @@ body {
     background-color: #ded1b3;
   }
   .qaulity-div {
-    width: 95%;
+    width: 90%;
     margin-left: 5%;
     display: grid;
     grid-template-columns: repeat(2, 160px);
     grid-template-rows: repeat(2, 44px);
-    gap: 50px;
+    gap: 30px;
   }
   .qaulity {
     display: flex;
@@ -6245,8 +6249,8 @@ body {
   }
   .all-brands {
     display: grid;
-    grid-template-columns: repeat(2, 170px);
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(2, 240px);
     column-gap: 20px;
   }
   .brand-img {
@@ -6261,7 +6265,7 @@ body {
   }
   .sarvitto {
     height: 30px;
-    margin-top: 40px;
+    margin-top: 30px;
   }
   .brand {
     display: flex;
@@ -6337,7 +6341,7 @@ body {
   }
   .product-h2 h2 {
     font-family: fontspring;
-    font-size: 28px;
+    font-size: 24px;
 
     letter-spacing: 0%;
     color: white;
@@ -6347,7 +6351,7 @@ body {
 
   .product-h2 p {
     font-family: fontspring;
-    font-size: 14px;
+    font-size: 12px;
 
     letter-spacing: 0%;
     color: white;
@@ -6356,7 +6360,7 @@ body {
   }
   .product-btn {
     font-family: fontspring;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 24px;
     letter-spacing: 0%;
     text-align: center;
@@ -6444,8 +6448,8 @@ body {
     position: relative;
   }
   .custome-desing {
-    width: 90%;
-    height: 400px;
+    width: 85%;
+    height: 370px;
     border-top-right-radius: 620px;
     background-color: #073b43;
     display: flex;
@@ -6458,8 +6462,8 @@ body {
   }
   .custome-div::before {
     content: "";
-    width: 94%;
-    height: 400px;
+    width: 88%;
+    height: 370px;
     border-top-right-radius: 620px;
     border: 1px solid white;
     position: absolute;
