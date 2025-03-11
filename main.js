@@ -21,17 +21,18 @@ btnMenu.addEventListener("click", function () {
 });
 
 let lastScrollY = window.scrollY;
-const stickyDiv = document.querySelector(".add-class");
+const stickyDiv = document.querySelector(".add-class1");
 
 window.addEventListener("scroll", () => {
   if (window.scrollY < lastScrollY) {
     // Scrolling up → Make it sticky
+
     stickyDiv.style.position = "sticky";
     stickyDiv.style.top = "0";
   } else {
     // Scrolling down → Remove stickiness
     stickyDiv.style.position = "relative";
-    stickyDiv.style.top = "-60px";
+    stickyDiv.style.top = "-10px";
   }
   lastScrollY = window.scrollY;
 });
