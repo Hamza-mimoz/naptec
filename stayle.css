@@ -11,7 +11,7 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-@media (min-width: 1100px) and (max-width: 1300px) {
+@media (min-width: 1120px) and (max-width: 1300px) {
   .menu-div {
     display: none;
   }
@@ -28,7 +28,6 @@ body {
     width: 90%;
     height: 104px;
     margin: 0% 5%;
-    row-gap: auto;
   }
   .nav-bar ul {
     display: flex;
@@ -36,12 +35,10 @@ body {
     align-items: center;
     list-style: none;
     flex-wrap: wrap;
-    width: auto;
+    column-gap: 40px;
+    padding: 0px;
   }
-  .nav-bar li {
-    margin-left: 6%;
-    width: 92px;
-  }
+
   .nav-bar a {
     text-decoration: none;
     color: #fff;
@@ -189,8 +186,9 @@ body {
     width: 95%;
     margin-left: 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
+    column-gap: 105px;
   }
   .qaulity {
     display: flex;
@@ -199,17 +197,18 @@ body {
     gap: 10px;
   }
   .qaulity-flag {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
   .qaulity-flag img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
   }
   .qaulity p {
     font-family: fontspring;
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 20px;
+    white-space: nowrap;
     letter-spacing: 0%;
   }
   .about-section {
@@ -262,6 +261,7 @@ body {
   }
   .brands-section {
     width: 100%;
+    height: 410px;
     background-color: #ded1b3;
     display: flex;
     justify-content: center;
@@ -281,6 +281,7 @@ body {
     letter-spacing: 0%;
     text-align: center;
     color: #073b43;
+    margin-bottom: 0px;
   }
   .all-brands {
     display: flex;
@@ -454,12 +455,14 @@ body {
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease-in-out;
+    padding-bottom: 5px;
+    box-sizing: border-box;
   }
   .arrow::after {
     content: "➜"; /* Unicode arrow */
     font-size: 20px;
     color: #fff;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.1s ease-in-out;
   }
   .product:hover {
     cursor: pointer;
@@ -487,7 +490,7 @@ body {
     position: relative;
   }
   .custome-desing {
-    width: 699px;
+    width: 609px;
     height: 484px;
     border-top-right-radius: 620px;
     background-color: #073b43;
@@ -500,7 +503,7 @@ body {
   }
   .custome-div::before {
     content: "";
-    width: 759px;
+    width: 680px;
     height: 484px;
     border-top-right-radius: 620px;
     border: 1px solid white;
@@ -839,11 +842,11 @@ body {
     justify-content: center;
     align-items: center;
     list-style: none;
+    column-gap: 40px;
+    margin: 0px;
+    padding: 0px;
   }
-  .nav-bar li {
-    margin-left: 6%;
-    width: 92px;
-  }
+
   .nav-bar a {
     text-decoration: none;
     color: #fff;
@@ -991,8 +994,9 @@ body {
     width: 95%;
     margin-left: 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
+    column-gap: 165px;
   }
   .qaulity {
     display: flex;
@@ -1001,18 +1005,19 @@ body {
     gap: 10px;
   }
   .qaulity-flag {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
   .qaulity-flag img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
   }
   .qaulity p {
     font-family: fontspring;
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 20px;
     letter-spacing: 0%;
+    white-space: nowrap;
   }
   .about-section {
     width: 100%;
@@ -1214,7 +1219,7 @@ body {
     background-color: #fff;
   }
   .all-product {
-    max-width: 100%;
+    width: 100%;
 
     display: flex;
     padding-right: 80px;
@@ -1222,7 +1227,7 @@ body {
     gap: 40px;
   }
   .product {
-    width: auto;
+    width: 22.4%;
     height: 420px;
   }
   .product-image {
@@ -1259,7 +1264,7 @@ body {
     content: "➜"; /* Unicode arrow */
     font-size: 20px;
     color: #fff;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.1s ease-in-out;
   }
   .product:hover {
     cursor: pointer;
@@ -1616,7 +1621,7 @@ body {
     margin: 0px auto;
   }
 }
-@media (min-width: 990px) and (max-width: 1100px) {
+@media (min-width: 990px) and (max-width: 1120px) {
   .menu-div {
     display: none;
   }
@@ -1640,12 +1645,10 @@ body {
     align-items: center;
     list-style: none;
     flex-wrap: wrap;
-    width: auto;
+    column-gap: 40px;
+    padding: 0px;
   }
-  .nav-bar li {
-    margin-left: 6%;
-    width: 92px;
-  }
+
   .nav-bar a {
     text-decoration: none;
     color: #fff;
@@ -1793,27 +1796,29 @@ body {
     width: 95%;
     margin-left: 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
+    column-gap: 90px;
   }
   .qaulity {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     gap: 10px;
   }
   .qaulity-flag {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
   }
   .qaulity-flag img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
   }
   .qaulity p {
     font-family: fontspring;
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 16px;
+
     letter-spacing: 0%;
   }
   .about-section {
@@ -1866,6 +1871,7 @@ body {
   }
   .brands-section {
     width: 100%;
+    height: 400px;
     background-color: #ded1b3;
     display: flex;
     justify-content: center;
@@ -1885,6 +1891,7 @@ body {
     letter-spacing: 0%;
     text-align: center;
     color: #073b43;
+    margin-top: 0px;
   }
   .all-brands {
     display: flex;
@@ -1893,8 +1900,8 @@ body {
     gap: 15px;
   }
   .brand-img {
-    width: 220px;
-    height: 50px;
+    width: 200px;
+    height: 60px;
     transition: all 0.5s ease-in-out;
     position: relative;
     top: 110px;
@@ -1907,6 +1914,9 @@ body {
   .sarvitto {
     height: 30px;
     margin-top: 10px;
+  }
+  .bloom {
+    top: 100px;
   }
   .brand {
     display: flex;
@@ -2058,12 +2068,14 @@ body {
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease-in-out;
+    padding-bottom: 4px;
+    box-sizing: border-box;
   }
   .arrow::after {
     content: "➜"; /* Unicode arrow */
     font-size: 20px;
     color: #fff;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.1s ease-in-out;
   }
   .product:hover {
     cursor: pointer;
@@ -2091,7 +2103,7 @@ body {
     position: relative;
   }
   .custome-desing {
-    width: 699px;
+    width: 609px;
     height: 484px;
     border-top-right-radius: 620px;
     background-color: #073b43;
@@ -2104,7 +2116,7 @@ body {
   }
   .custome-div::before {
     content: "";
-    width: 759px;
+    width: 680px;
     height: 484px;
     border-top-right-radius: 620px;
     border: 1px solid white;
@@ -2262,7 +2274,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    top: -136px;
+    top: -146px;
   }
   .partner-image::after {
     content: "";
@@ -2719,11 +2731,11 @@ body {
   }
   .brands-section {
     width: 100%;
-    height: 800px;
+    min-height: 450px;
     background-color: #ded1b3;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
   }
   .brands-div {
     width: 95%;
@@ -2741,14 +2753,15 @@ body {
     color: #073b43;
   }
   .all-brands {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(2, auto);
-    column-gap: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
   }
   .brand-img {
-    width: 300px;
-    height: 100px;
+    width: 200px;
+    height: 60px;
     transition: all 0.5s ease-in-out;
     position: relative;
     top: 110px;
@@ -2760,7 +2773,10 @@ body {
   }
   .sarvitto {
     height: 30px;
-    margin-top: 60px;
+    margin-top: 10px;
+  }
+  .bloom {
+    top: 100px;
   }
   .brand {
     display: flex;
@@ -2768,7 +2784,7 @@ body {
     justify-content: start;
     align-items: center;
     min-height: 250px;
-    width: 220px;
+    width: 310px;
   }
   .brand p {
     font-family: fontspring;
@@ -2807,10 +2823,6 @@ body {
 
   .brand:hover .brand-img {
     top: 0px;
-  }
-  .brand:hover .brand-img {
-    width: 150px;
-    height: 40px;
   }
 
   .brand:hover .sarvitto {
@@ -2910,12 +2922,15 @@ body {
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease-in-out;
+    padding-bottom: 3px;
+    box-sizing: border-box;
+    margin-right: 2px;
   }
   .arrow::after {
     content: "➜"; /* Unicode arrow */
     font-size: 20px;
     color: #fff;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.1s ease-in-out;
   }
   .product:hover {
     cursor: pointer;
@@ -2926,7 +2941,6 @@ body {
   .product:hover .arrow::after {
     transform: rotate(-90deg);
     color: #073b43;
-    margin-right: 4px;
   }
 
   .custome-section {
@@ -2943,7 +2957,7 @@ body {
     position: relative;
   }
   .custome-desing {
-    width: 600px;
+    width: 510px;
     height: 434px;
     border-top-right-radius: 620px;
     background-color: #073b43;
@@ -2957,7 +2971,7 @@ body {
   }
   .custome-div::before {
     content: "";
-    width: 659px;
+    width: 569px;
     height: 434px;
     border-top-right-radius: 620px;
     border: 1px solid white;
@@ -3108,8 +3122,11 @@ body {
     margin-left: 5%;
   }
 
+  .partner-div-img {
+    width: 100%;
+  }
   .partner-image {
-    width: 670px;
+    width: 97%;
     height: 350px;
     border-width: 1px;
 
@@ -3122,7 +3139,7 @@ body {
   }
   .partner-image::after {
     content: "";
-    width: 690px;
+    width: 103%;
     height: 350px;
     border: 1px solid white;
 
@@ -3317,7 +3334,7 @@ body {
   .close-div {
     position: absolute;
     top: 28px;
-    left: 45px;
+    left: 40px;
     width: 50px;
     height: 50px;
   }
@@ -3589,11 +3606,11 @@ body {
   }
   .brands-section {
     width: 100%;
-    height: 800px;
+    min-height: 450px;
     background-color: #ded1b3;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
   }
   .brands-div {
     width: 95%;
@@ -3611,14 +3628,15 @@ body {
     color: #073b43;
   }
   .all-brands {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(2, auto);
-    column-gap: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
   }
   .brand-img {
-    width: 220px;
-    height: 100px;
+    width: 150px;
+    height: 60px;
     transition: all 0.5s ease-in-out;
     position: relative;
     top: 110px;
@@ -3630,7 +3648,10 @@ body {
   }
   .sarvitto {
     height: 30px;
-    margin-top: 60px;
+    margin-top: 10px;
+  }
+  .bloom {
+    top: 100px;
   }
   .brand {
     display: flex;
@@ -3638,7 +3659,7 @@ body {
     justify-content: start;
     align-items: center;
     min-height: 250px;
-    width: 220px;
+    width: 270px;
   }
   .brand p {
     font-family: fontspring;
@@ -3783,12 +3804,15 @@ body {
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease-in-out;
+    padding-bottom: 2px;
+
+    box-sizing: border-box;
   }
   .arrow::after {
     content: "➜"; /* Unicode arrow */
     font-size: 20px;
     color: #fff;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.1s ease-in-out;
   }
   .product:hover {
     cursor: pointer;
@@ -3799,7 +3823,7 @@ body {
   .product:hover .arrow::after {
     transform: rotate(-90deg);
     color: #073b43;
-    margin-right: 4px;
+    margin-right: 2px;
   }
 
   .custome-section {
@@ -3816,7 +3840,7 @@ body {
     position: relative;
   }
   .custome-desing {
-    width: 85%;
+    width: 450px;
     height: 434px;
     border-top-right-radius: 620px;
     background-color: #073b43;
@@ -3830,7 +3854,7 @@ body {
   }
   .custome-div::before {
     content: "";
-    width: 87%;
+    width: 470px;
     height: 434px;
     border-top-right-radius: 620px;
     border: 1px solid white;
@@ -3845,7 +3869,7 @@ body {
   }
   .desing h2 {
     font-family: fontspring;
-    font-size: 48px;
+    font-size: 38px;
 
     letter-spacing: 0%;
     color: white;
@@ -3853,7 +3877,7 @@ body {
   .desing p {
     font-family: fontspring;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 32px;
     letter-spacing: 0%;
   }
@@ -3985,7 +4009,7 @@ body {
     width: 100%;
   }
   .partner-image {
-    width: 100%;
+    width: 97%;
     height: 350px;
     border-width: 1px;
 
@@ -4176,8 +4200,8 @@ body {
 
 @media (min-width: 500px) and (max-width: 600px) {
   .menu-div {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     margin-left: 5%;
     background-color: #073b43;
     border-style: none;
@@ -4197,10 +4221,10 @@ body {
 
   .close-div {
     position: absolute;
-    top: 28px;
-    left: 5%;
-    width: 50px;
-    height: 50px;
+    top: 38px;
+    left: 6%;
+    width: 30px;
+    height: 30px;
   }
   .close-div img {
     width: 100%;
@@ -4214,12 +4238,20 @@ body {
 
   .nav-bar {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
-    width: 95%;
+    width: 100%;
     height: 104px;
-
+    column-gap: 100px;
     position: relative;
+  }
+  .logo {
+    width: 150px;
+    height: 30px;
+  }
+  .logo img {
+    width: 100%;
+    height: 100%;
   }
   .nav-bar ul {
     margin: 0px;
@@ -4470,11 +4502,11 @@ body {
   }
   .brands-section {
     width: 100%;
-    height: 800px;
+    height: 680px;
     background-color: #ded1b3;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
   }
   .brands-div {
     width: 95%;
@@ -4492,12 +4524,15 @@ body {
     color: #073b43;
   }
   .all-brands {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(2, auto);
-    column-gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
   }
   .brand-img {
+    width: 130px;
+    height: 60px;
     transition: all 0.5s ease-in-out;
     position: relative;
     top: 110px;
@@ -4509,15 +4544,18 @@ body {
   }
   .sarvitto {
     height: 30px;
-    margin-top: 40px;
+    margin-top: 10px;
+  }
+  .bloom {
+    top: 100px;
   }
   .brand {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    min-height: 250px;
-    width: 220px;
+    height: 250px;
+    width: 230px;
   }
   .brand p {
     font-family: fontspring;
@@ -4661,12 +4699,14 @@ body {
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease-in-out;
+    padding-bottom: 2px;
+    box-sizing: border-box;
   }
   .arrow::after {
     content: "➜"; /* Unicode arrow */
     font-size: 20px;
     color: #fff;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.1s ease-in-out;
   }
   .product:hover {
     cursor: pointer;
@@ -5054,8 +5094,8 @@ body {
 
 @media (min-width: 400px) and (max-width: 500px) {
   .menu-div {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin-left: 5%;
     background-color: #073b43;
     border-style: none;
@@ -5075,10 +5115,10 @@ body {
 
   .close-div {
     position: absolute;
-    top: 28px;
-    left: 5%;
-    width: 40px;
-    height: 40px;
+    top: 38px;
+    left: 6%;
+    width: 25px;
+    height: 25px;
   }
   .close-div img {
     width: 100%;
@@ -5089,13 +5129,21 @@ body {
     width: 100%;
     background-color: #073b43;
   }
-
+  .logo {
+    width: 130px;
+    height: 25px;
+  }
+  .logo img {
+    width: 100%;
+    height: 100%;
+  }
   .nav-bar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 99%;
+    width: 100%;
     height: 104px;
+    column-gap: 70px;
 
     position: relative;
   }
@@ -5158,7 +5206,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 15px;
-    margin-left: 15px;
+    margin-left: 10px;
   }
   .acount-div div {
     margin-left: 10%;
@@ -5168,8 +5216,8 @@ body {
     margin-left: 20%;
   }
   .search {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -5179,8 +5227,8 @@ body {
     width: 24px;
   }
   .shopping {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -5224,7 +5272,7 @@ body {
   }
   .stayle-div h1 {
     font-family: fontspring;
-    font-size: 60px;
+    font-size: 48px;
     line-height: 96px;
     text-align: center;
     color: white;
@@ -5234,7 +5282,7 @@ body {
   }
   .stayle-div p {
     font-family: fontspring;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 40px;
     text-align: center;
     color: white;
@@ -5325,14 +5373,14 @@ body {
   }
   .about-disc h2 {
     font-family: fontspring;
-    font-size: 60px;
+    font-size: 48px;
     line-height: 72px;
     letter-spacing: 0%;
     color: #fff;
   }
   .about-disc p {
     font-family: fontspring;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 32px;
     letter-spacing: 0%;
     color: #fff;
@@ -5349,14 +5397,14 @@ body {
   }
   .brands-section {
     width: 100%;
-    height: 800px;
+    height: 680px;
     background-color: #ded1b3;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
   }
   .brands-div {
-    width: 90%;
+    width: 95%;
     margin-left: 5%;
     display: flex;
     justify-content: center;
@@ -5364,20 +5412,22 @@ body {
   }
   .brand-title h2 {
     font-family: fontspring;
-    font-size: 32px;
-
+    font-size: 38px;
+    line-height: 50px;
     letter-spacing: 0%;
     text-align: center;
     color: #073b43;
-    margin-top: 0%;
   }
   .all-brands {
-    display: grid;
-    grid-template-columns: repeat(2, 150px);
-    grid-template-rows: repeat(2, 280px);
-    column-gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
   }
   .brand-img {
+    width: 120px;
+    height: 40px;
     transition: all 0.5s ease-in-out;
     position: relative;
     top: 110px;
@@ -5389,17 +5439,23 @@ body {
   }
   .sarvitto {
     height: 30px;
-    margin-top: 30px;
+    margin-top: 10px;
+  }
+  .bloom {
+    top: 110px;
+    width: 140px;
   }
   .brand {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    height: 220px;
+    width: 170px;
   }
   .brand p {
     font-family: fontspring;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
     letter-spacing: 0%;
     text-align: center;
@@ -5410,7 +5466,7 @@ body {
   .brand a {
     font-family: fontspring;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
     letter-spacing: 0%;
     text-align: center;
@@ -5539,12 +5595,14 @@ body {
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease-in-out;
+    padding-bottom: 2px;
+    box-sizing: border-box;
   }
   .arrow::after {
     content: "➜"; /* Unicode arrow */
     font-size: 20px;
     color: #fff;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.1s ease-in-out;
   }
   .product:hover {
     cursor: pointer;
@@ -5573,7 +5631,7 @@ body {
   }
   .custome-desing {
     width: 90%;
-    height: 400px;
+    height: 360px;
     border-top-right-radius: 620px;
     background-color: #073b43;
     display: flex;
@@ -5587,7 +5645,7 @@ body {
   .custome-div::before {
     content: "";
     width: 94%;
-    height: 400px;
+    height: 360px;
     border-top-right-radius: 620px;
     border: 1px solid white;
     position: absolute;
@@ -5601,7 +5659,7 @@ body {
   }
   .desing h2 {
     font-family: fontspring;
-    font-size: 38px;
+    font-size: 28px;
     margin-top: 0%;
     letter-spacing: 0%;
     color: white;
@@ -5609,7 +5667,7 @@ body {
   .desing p {
     font-family: fontspring;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
 
     letter-spacing: 0%;
   }
@@ -5929,8 +5987,8 @@ body {
 }
 @media (max-width: 400px) {
   .menu-div {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     margin-left: 5%;
     background-color: #073b43;
     border-style: none;
@@ -5950,10 +6008,10 @@ body {
 
   .close-div {
     position: absolute;
-    top: 28px;
-    left: 5%;
-    width: 40px;
-    height: 40px;
+    top: 38px;
+    left: 4%;
+    width: 25px;
+    height: 25px;
   }
   .close-div img {
     width: 100%;
@@ -5964,23 +6022,23 @@ body {
     width: 100%;
     background-color: #073b43;
   }
-
-  .nav-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 99%;
-    height: 104px;
-
-    position: relative;
-  }
   .logo {
-    width: 135px;
-    height: 30px;
+    width: 130px;
+    height: 25px;
   }
   .logo img {
     width: 100%;
     height: 100%;
+  }
+  .nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 96%;
+    height: 104px;
+    column-gap: 70px;
+
+    position: relative;
   }
   .nav-bar ul {
     margin: 0px;
@@ -6040,8 +6098,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
-    margin-left: 15px;
+    gap: 10px;
+    margin-left: 10px;
   }
   .acount-div div {
     margin-left: 10%;
@@ -6051,8 +6109,8 @@ body {
     margin-left: 20%;
   }
   .search {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6062,8 +6120,8 @@ body {
     width: 24px;
   }
   .shopping {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6107,8 +6165,8 @@ body {
   }
   .stayle-div h1 {
     font-family: fontspring;
-    font-size: 45px;
-
+    font-size: 38px;
+    line-height: 40px;
     text-align: center;
     color: white;
     margin: 0px;
@@ -6117,23 +6175,23 @@ body {
   }
   .stayle-div p {
     font-family: fontspring;
-    font-size: 20px;
-    line-height: 40px;
+    font-size: 14px;
+    line-height: 20px;
     text-align: center;
     color: white;
   }
 
   .stayle-div button {
     height: 56px;
-    width: 276px;
+    width: 206px;
     border-radius: 100px;
 
     background-color: transparent;
     border: 1px solid white;
     color: white;
     font-family: fontspring;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 14px;
     transition: all 0.3s ease-in-out;
   }
   .stayle-div button:hover {
@@ -6155,23 +6213,21 @@ body {
     background-color: #ded1b3;
   }
   .qaulity-div {
-    width: 90%;
+    width: 95%;
     margin-left: 5%;
     display: grid;
     grid-template-columns: repeat(2, 160px);
-    grid-template-rows: repeat(2, 44px);
-    gap: 30px;
-    column-gap: 20px;
+    grid-template-rows: repeat(2, auto);
   }
   .qaulity {
     display: flex;
     justify-content: start;
     align-items: center;
-    gap: 10px;
+    gap: 1px;
   }
   .qaulity-flag {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
   }
   .qaulity-flag img {
     width: 100%;
@@ -6180,9 +6236,8 @@ body {
   .qaulity p {
     font-family: fontspring;
     font-size: 14px;
+
     letter-spacing: 0%;
-    margin: 0%;
-    color: #073b43;
   }
   .about-section {
     width: 100%;
@@ -6211,15 +6266,15 @@ body {
   }
   .about-disc h2 {
     font-family: fontspring;
-    font-size: 42px;
+    font-size: 48px;
     line-height: 72px;
     letter-spacing: 0%;
     color: #fff;
   }
   .about-disc p {
     font-family: fontspring;
-    font-size: 16px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 22px;
     letter-spacing: 0%;
     color: #fff;
   }
@@ -6235,14 +6290,14 @@ body {
   }
   .brands-section {
     width: 100%;
-    height: 800px;
+    height: 500px;
     background-color: #ded1b3;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
   }
   .brands-div {
-    width: 90%;
+    width: 95%;
     margin-left: 5%;
     display: flex;
     justify-content: center;
@@ -6250,20 +6305,24 @@ body {
   }
   .brand-title h2 {
     font-family: fontspring;
-    font-size: 32px;
-
+    font-size: 38px;
+    line-height: 50px;
     letter-spacing: 0%;
     text-align: center;
     color: #073b43;
-    margin-top: 0%;
+    margin-bottom: 0px;
+    margin-top: 10px;
   }
   .all-brands {
-    display: grid;
-    grid-template-columns: repeat(2, 150px);
-    grid-template-rows: repeat(2, 240px);
-    column-gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
   }
   .brand-img {
+    width: 120px;
+    height: 40px;
     transition: all 0.5s ease-in-out;
     position: relative;
     top: 110px;
@@ -6275,18 +6334,24 @@ body {
   }
   .sarvitto {
     height: 30px;
-    margin-top: 30px;
+    margin-top: 10px;
+  }
+  .bloom {
+    top: 110px;
+    width: 140px;
   }
   .brand {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    height: 200px;
+    width: 160px;
   }
   .brand p {
     font-family: fontspring;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 14px;
+
     letter-spacing: 0%;
     text-align: center;
     opacity: 0;
@@ -6296,8 +6361,8 @@ body {
   .brand a {
     font-family: fontspring;
     font-weight: 300;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 14px;
+
     letter-spacing: 0%;
     text-align: center;
     color: #073b43;
@@ -6351,7 +6416,7 @@ body {
   }
   .product-h2 h2 {
     font-family: fontspring;
-    font-size: 24px;
+    font-size: 18px;
 
     letter-spacing: 0%;
     color: white;
@@ -6370,8 +6435,8 @@ body {
   }
   .product-btn {
     font-family: fontspring;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 14px;
     letter-spacing: 0%;
     text-align: center;
     border-radius: 100px;
@@ -6425,12 +6490,14 @@ body {
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease-in-out;
+    padding-bottom: 2px;
+    box-sizing: border-box;
   }
   .arrow::after {
     content: "➜"; /* Unicode arrow */
     font-size: 20px;
     color: #fff;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.1s ease-in-out;
   }
   .product:hover {
     cursor: pointer;
@@ -6441,7 +6508,7 @@ body {
   .product:hover .arrow::after {
     transform: rotate(-90deg);
     color: #073b43;
-    margin-right: 4px;
+    margin-right: 3.2px;
   }
 
   .custome-section {
@@ -6458,8 +6525,8 @@ body {
     position: relative;
   }
   .custome-desing {
-    width: 85%;
-    height: 350px;
+    width: 87%;
+    height: 320px;
     border-top-right-radius: 620px;
     background-color: #073b43;
     display: flex;
@@ -6472,22 +6539,22 @@ body {
   }
   .custome-div::before {
     content: "";
-    width: 88%;
-    height: 350px;
+    width: 91%;
+    height: 320px;
     border-top-right-radius: 620px;
     border: 1px solid white;
     position: absolute;
-    top: 220px;
+    top: 210px;
     left: 20px;
   }
   .desing {
-    padding: 80px 80px 40px 0px;
+    padding: 60px 80px 40px 0px;
     max-width: 439px;
     max-height: 344px;
   }
   .desing h2 {
     font-family: fontspring;
-    font-size: 28px;
+    font-size: 20px;
     margin-top: 0%;
     letter-spacing: 0%;
     color: white;
@@ -6500,8 +6567,8 @@ body {
     letter-spacing: 0%;
   }
   .desing button {
-    width: 170px;
-    height: 50px;
+    max-width: 201px;
+    max-height: 56px;
     border-radius: 100px;
     border-width: 1px;
     padding-top: 16px;

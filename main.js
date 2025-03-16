@@ -19,20 +19,3 @@ btnMenu.addEventListener("click", function () {
     closee.style.transform = "scale(0)";
   }
 });
-
-let lastScrollY = window.scrollY;
-const stickyDiv = document.querySelector(".add-class1");
-
-window.addEventListener("scroll", () => {
-  if (window.scrollY < lastScrollY) {
-    // Scrolling up → Make it sticky
-
-    stickyDiv.style.position = "sticky";
-    stickyDiv.style.top = "0";
-  } else {
-    // Scrolling down → Remove stickiness
-    stickyDiv.style.position = "relative";
-    stickyDiv.style.top = "-10px";
-  }
-  lastScrollY = window.scrollY;
-});
